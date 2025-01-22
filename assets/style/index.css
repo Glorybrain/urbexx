@@ -25,7 +25,7 @@
   font-family: var(--font-family-medium);
 }
 .v-header .v-action-container .v-action {
-  padding: 9px 1.75rem;
+  padding: 9px 1.5rem;
   border-radius: 8px;
   white-space: nowrap;
   display: flex;
