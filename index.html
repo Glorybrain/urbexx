@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="theme-color" content="#12a632" />
-		<link rel="shortcut icon" href="" type="image/x-icon" />
-		<link rel="apple-touch-icon" sizes="180x180" href="" />
-		<link rel="icon" type="image/png" sizes="32x32" href="" />
-		<link rel="icon" type="image/png" sizes="16x16" href="" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#12a632" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="" />
+    <link rel="icon" type="image/png" sizes="32x32" href="" />
+    <link rel="icon" type="image/png" sizes="16x16" href="" />
 
-		<link rel="stylesheet" type="text/css" href="./assets/style/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="./assets/style/default.css" />
-		<link rel="stylesheet" type="text/css" href="./assets/style/index.css" />
-		<link rel="stylesheet" type="text/css" href="./assets/style/media-query.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/style/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/style/default.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/style/media-query.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
 
-		<title>Home</title>
-	</head>
-	<body>
-		<div class="v-page-wrapper">
-			<!-- main @::body -->
-			<main class="v-main" id="v-page-main">
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="v-page-wrapper">
+      <!-- main @::body -->
+      <main class="v-main" id="v-page-main">
         <section class="v-page-hero" id="v-hero">
           <!-- header @::start -->
           <header class="v-header" id="v-page-header">
-            <div class="container-lg px-lg-0">
+            <div class="col-xl-10 mx-auto px-2 px-md-4 px-xl-0">
               <div
                 class="d-flex col-12 align-items-center justify-content-between m-0"
               >
@@ -69,17 +81,16 @@
                 </div>
 
                 <div class="v-action-container v-navbar">
-                  <a href="" class="v-action v-nav-link">Download</a>
+                  <a href="" class="v-action-link v-nav-link">Download</a>
                 </div>
               </div>
             </div>
           </header>
           <!-- header @::end -->
-          
         </section>
 
-        <!-- <section class="v-each-section py-5" id="v-guest">
-          <div class="col-xl-10 mx-auto px-2 px-lg-0">
+        <section class="v-each-section py-5" id="v-guest">
+          <div class="col-xl-10 mx-auto px-2 px-md-4 px-xl-0">
             <div class="">
               <div class="row align-items-center g-5">
                 <div class="col-lg-7">
@@ -148,102 +159,340 @@
                     </div>
                   </div>
 
-                  <div class="tab-content" id="userTypeTabContent">
+                  <div class="tab-content mt-4" id="userTypeTabContent">
                     <div
-                      class="tab-pane fade show active text-center text-lg-start"
+                      class="tab-pane fade show active"
                       id="guest-panel"
                       role="tabpanel"
                       aria-labelledby="guest-tab"
                     >
-                      <h1 class="main-heading text-center text-lg-start">
-                        We make it easy for<br />Guests and Residents.
-                      </h1>
-                      <span class="description d-block mx-auto mx-lg-0">
-                        We're committed to delivering exceptional experiences
-                        for our guests and residents, making it easy to manage
-                        estate life, connect with neighbors and enjoy your
-                        community.
-                      </span>
-                      <a
-                        href="#"
-                        class="see-more-btn text-center text-lg-start"
+                      <div
+                        class="col-sm-10 col-md-9 col-lg-12 col-xl-11 mx-auto mx-lg-0 d-flex flex-column row-gap-4 text-center text-lg-start"
                       >
-                        See more
-                        <svg
-                          class="arrow-icon"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <line x1="5" y1="12" x2="19" y2="12"></line>
-                          <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                      </a>
+                        <h1 class="v-main-text text-center text-lg-start">
+                          <b>We make it easy for<br />Guests and Residents.</b>
+                        </h1>
+                        <div class="mx-auto mx-lg-0">
+                          <span class="v-subtext">
+                            We're committed to delivering exceptional
+                            experiences for our guests and residents, making it
+                            easy to manage estate life, connect with neighbors
+                            and enjoy your community.
+                          </span>
+                        </div>
+                        <div class="v-action-container mt-2">
+                          <a href="#" class="v-action-link">
+                            See more
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="12"
+                              height="24"
+                              viewBox="0 0 12 24"
+                            >
+                              <path
+                                fill="#fff"
+                                fill-rule="evenodd"
+                                d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
                     </div>
 
                     <div
-                      class="tab-pane fade text-center text-lg-start"
+                      class="tab-pane fade"
                       id="resident-panel"
                       role="tabpanel"
                       aria-labelledby="resident-tab"
                     >
-                      <h1 class="main-heading text-center text-lg-start">
-                        Welcome Home to<br />Your Community.
-                      </h1>
-                      <span class="description d-block mx-auto mx-lg-0">
-                        Experience the convenience of modern estate living with
-                        our comprehensive resident services, community features,
-                        and neighbor connections all in one place.
-                      </span>
-                      <a
-                        href="#"
-                        class="see-more-btn text-center text-lg-start"
+                      <div
+                        class="col-sm-10 col-md-9 col-lg-12 col-xl-11 mx-auto mx-lg-0 d-flex flex-column row-gap-4 text-center text-lg-start"
                       >
-                        See more
-                        <svg
-                          class="arrow-icon"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <line x1="5" y1="12" x2="19" y2="12"></line>
-                          <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                      </a>
+                        <h1 class="v-main-text text-center text-lg-start">
+                          <b>Welcome Home to<br />Your Community.</b>
+                        </h1>
+                        <div class="mx-auto mx-lg-0">
+                          <span class="v-subtext">
+                            Experience the convenience of modern estate living
+                            with our comprehensive resident services, community
+                            features, and neighbor connections all in one place.
+                          </span>
+                        </div>
+                        <div class="v-action-container mt-2">
+                          <a href="#" class="v-action-link">
+                            See more
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="12"
+                              height="24"
+                              viewBox="0 0 12 24"
+                            >
+                              <path
+                                fill="#fff"
+                                fill-rule="evenodd"
+                                d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"
+                              />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section> -->
-      </main>
-			<!-- main @::end -->
-			<!-- footer @::start-->
-			<footer class="v-footer position-relative" id="v-page-footer"></footer>
-			<!-- footer @::end -->
+        </section>
 
-			<!-- offcanvas @::start -->
-			<div class="offcanvas offcanvas-start" tabindex="-1" id="sideBar" aria-labelledby="sideBarLabel">
-				<div class="offcanvas-header">
-					<h5 class="offcanvas-title" id="sideBarLabel">Offcanvas</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-				</div>
-				<div class="offcanvas-body"></div>
-			</div>
-			<!-- offcanvas @::end -->
-		</div>
-		<script type="text/javascript" src="./assets/js/bootstrap.min.js" defer></script>
-		<script type="text/javascript" src="./assets/js/index.custom.js" defer></script>
-	</body>
+        <section class="v-each-section py-5" id="v-transform">
+          <div class="col-xl-9 mx-auto px-2 px-md-4 px-xl-0">
+            <div class="">
+              <div class="row align-items-center justify-content-between g-5">
+                <div class="col-lg-5">
+                  <div
+                    class="v-scrolling-container v-vertical row col-12 m-0 py-4 px-3 p-md-5 gap-3"
+                  >
+                    <div class="v-stack-col p-0 splide" id="v-left">
+                      <div class="splide__track">
+                        <div class="splide__list">
+                          <!-- each item @::start -->
+                          <div class="v-each-item splide__slide p-3">
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <div
+                                class="d-flex align-items-center column-gap-3"
+                              >
+                                <span class="v-image">
+                                  <img
+                                    src="./assets/media/svgs/icon.svg"
+                                    alt=""
+                                    class="img-fluid"
+                                  />
+                                </span>
+                                <div class="v-right-context d-flex flex-column">
+                                  <span class="v-main-text"><b>Estate dues</b></span>
+                                  <span class="v-subtext"
+                                    >Pay collective dues withi...</span
+                                  >
+                                </div>
+                              </div>
+                              <div class="v-price-tag">
+                                <span class="v-text"> -$150.00 </span>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- each item @::end -->
+                          <!-- each item @::start -->
+                          <div class="v-each-item splide__slide p-3">
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <header
+                                class="d-flex align-items-center column-gap-3"
+                              >
+                                <span class="v-image">
+                                  <img
+                                    src="./assets/media/svgs/icon.svg"
+                                    alt=""
+                                    class="img-fluid"
+                                  />
+                                </span>
+                                <div class="v-right-context d-flex flex-column">
+                                  <span class="v-main-text"><b>Projects</b></span>
+                                  <span class="v-subtext"
+                                    >Contribute to your estate’s cont...</span
+                                  >
+                                </div>
+                              </header>
+                              <div class="v-price-tag">
+                                <span class="v-text"> -$55.00 </span>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- each item @::end -->
+                          <!-- each item @::start -->
+                          <div class="v-each-item splide__slide p-3">
+                            <div
+                              class="d-flex justify-content-between flex-nowrap align-items-center"
+                            >
+                              <header
+                                class="d-flex align-items-center column-gap-3"
+                              >
+                                <span class="v-image">
+                                  <img
+                                    src="./assets/media/svgs/icon.svg"
+                                    alt=""
+                                    class="img-fluid"
+                                  />
+                                </span>
+                                <div class="v-right-context d-flex flex-column">
+                                  <span class="v-main-text"><b>Top-Up</b></span>
+                                  <span class="v-subtext">Money Transfer</span>
+                                </div>
+                              </header>
+                              <div class="v-price-tag">
+                                <span class="v-text"> -$320.00 </span>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- each item @::end -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div
+                    class="d-flex flex-column row-gap-4 align-items-center align-items-lg-start col-md-7 col-lg-12 mx-auto"
+                  >
+                    <h1
+                      class="v-main-heading col-lg-10 col-xl-8 text-center text-lg-start"
+                    >
+                      Transforming Transactions, One Click at a Time.
+                    </h1>
+                    <div class="d-flex flex-column row-gap-3">
+                      <div class="text-center text-lg-start col-lg-10 col-xl-9">
+                        <span class="v-sub-text">
+                          Our service is designed to connect the residents,
+                          offering reliable and accessible financial solutions
+                          to anytime and everytime.
+                        </span>
+                      </div>
+                      <div class="d-flex flex-column row-gap-1">
+                        <div
+                          class="d-flex align-items-center justify-content-center justify-content-lg-start gap-2"
+                        >
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <rect
+                              width="24"
+                              height="24"
+                              rx="12"
+                              fill="#F6F7F9"
+                            />
+                            <path
+                              d="M5.20697 10.4849C5.3945 10.2975 5.64881 10.1922 5.91397 10.1922C6.17914 10.1922 6.43344 10.2975 6.62097 10.4849L10.157 14.0209L17.227 6.94994C17.3198 6.85703 17.4301 6.78332 17.5514 6.73301C17.6727 6.6827 17.8028 6.65678 17.9341 6.65674C18.0655 6.65669 18.1955 6.68252 18.3169 6.73274C18.4383 6.78296 18.5486 6.8566 18.6415 6.94944C18.7344 7.04229 18.8081 7.15252 18.8584 7.27385C18.9087 7.39519 18.9346 7.52524 18.9347 7.65659C18.9347 7.78794 18.9089 7.91801 18.8587 8.03938C18.8085 8.16074 18.7348 8.27103 18.642 8.36394L10.157 16.8489L5.20697 11.8989C5.0195 11.7114 4.91418 11.4571 4.91418 11.1919C4.91418 10.9268 5.0195 10.6725 5.20697 10.4849Z"
+                              fill="#171717"
+                            />
+                          </svg>
+                          <span class="v-small-text">
+                            Track transfers with real-time notifications.
+                          </span>
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-center justify-content-lg-start gap-2"
+                        >
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <rect
+                              width="24"
+                              height="24"
+                              rx="12"
+                              fill="#F6F7F9"
+                            />
+                            <path
+                              d="M5.20697 10.4849C5.3945 10.2975 5.64881 10.1922 5.91397 10.1922C6.17914 10.1922 6.43344 10.2975 6.62097 10.4849L10.157 14.0209L17.227 6.94994C17.3198 6.85703 17.4301 6.78332 17.5514 6.73301C17.6727 6.6827 17.8028 6.65678 17.9341 6.65674C18.0655 6.65669 18.1955 6.68252 18.3169 6.73274C18.4383 6.78296 18.5486 6.8566 18.6415 6.94944C18.7344 7.04229 18.8081 7.15252 18.8584 7.27385C18.9087 7.39519 18.9346 7.52524 18.9347 7.65659C18.9347 7.78794 18.9089 7.91801 18.8587 8.03938C18.8085 8.16074 18.7348 8.27103 18.642 8.36394L10.157 16.8489L5.20697 11.8989C5.0195 11.7114 4.91418 11.4571 4.91418 11.1919C4.91418 10.9268 5.0195 10.6725 5.20697 10.4849Z"
+                              fill="#171717"
+                            />
+                          </svg>
+                          <span class="v-small-text">
+                            Track transfers with real-time notifications.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="v-action-container mt-3">
+                      <a href="" class="v-action-link">Get Started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- main @::end -->
+      <!-- footer @::start-->
+      <footer class="v-footer position-relative" id="v-page-footer"></footer>
+      <!-- footer @::end -->
+
+      <!-- offcanvas @::start -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="sideBar"
+        aria-labelledby="sideBarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sideBarLabel">Offcanvas</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body"></div>
+      </div>
+      <!-- offcanvas @::end -->
+    </div>
+    <script
+      type="text/javascript"
+      src="./assets/js/bootstrap.min.js"
+      defer
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/index.custom.js"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script>
+      const allScrollers = document.querySelectorAll(
+        ".v-scrolling-container .v-stack-col"
+      );
+
+      allScrollers.forEach((scroller) => {
+        const id = scroller.id;
+        let speedDirection;
+        switch (id) {
+          case "v-right":
+            speedDirection = 0.3;
+            break;
+          default:
+            speedDirection = 0.3;
+            break;
+        }
+        new Splide(scroller, {
+          type: "loop",
+          drag: "free",
+          direction: "ttb",
+          gap: "0.75rem",
+          pagination: false,
+          arrows: false,
+          height: "250px",
+          easing: "ease-in-out",
+          fixedHeight: "max-content",
+          focus: "center",
+          autoScroll: {
+            speed: speedDirection,
+          },
+        }).mount(window.splide.Extensions);
+      });
+    </script>
+  </body>
 </html>

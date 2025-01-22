@@ -7,13 +7,38 @@
 	src: url("../font/PlusJakartaSans-Medium.ttf") format("truetype");
 }
 @font-face {
+	font-family: "PlusJakartaSansSemiBold";
+	src: url("../font/PlusJakartaSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
 	font-family: "PlusJakartaSansBold";
 	src: url("../font/PlusJakartaSans-Bold.ttf") format("truetype");
 }
+@font-face {
+	font-family: "ManropeSemiBold";
+	src: url("../font/Manrope-SemiBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ManropeMedium";
+	src: url("../font/Manrope-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ManropeBold";
+	src: url("../font/Manrope-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "InterRegular";
+	src: url("../font/Inter_18pt-Regular.ttf") format("truetype");
+}
 :root {
 	--font-family-regular: PlusJakartaSansRegular, serif;
+	--font-family-regularI: InterRegular, serif;
 	--font-family-medium: PlusJakartaSansMedium, serif;
+	--font-family-mediumM: ManropeMedium, serif;
+	--font-family-semibold: PlusJakartaSansSemiBold, serif;
 	--font-family-bold: PlusJakartaSansBold, serif;
+	--font-family-boldM: ManropeBold, serif;
+	--font-family-semiboldM: ManropeSemiBold, serif;
 	--main-bg-clr: #FFFFFF;
 	--border-line-clr: #f2f3f5;
 	--nav-link-bg: #f0f3f5;
@@ -155,6 +180,9 @@ input[type="number"]::-webkit-calendar-picker-indicator {
 }
 figure {
 	margin: 0;
+}
+.v-main {
+  overflow: hidden;
 }
 .v-icon {
 	display: flex;
