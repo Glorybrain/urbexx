@@ -11,6 +11,7 @@
   font-size: 1.35rem;
 }
 
+/*======= HEADER =====*/
 .v-header {
   padding: 1rem 0;
 }
@@ -38,6 +39,105 @@
   border-width: 0px;
 }
 
+/*======= HERO =====*/
+.v-page-hero .v-hero-content-title {
+  font-size: calc(7vw);
+}
+.v-page-hero .v-subtext {
+  font-size: 1.1rem;
+  font-family: var(--font-family-medium);
+}
+.v-page-hero .v-main-text {
+  color: var(--primary-clr);
+  font-family: var(--font-family-bold);
+}
+.v-hero-content .nav-item {
+  color: rgba(0, 9, 41, 1);
+  background-color: var(--white);
+}
+.v-hero-content .nav-link {
+  color: rgba(0, 9, 41, 1);
+  font-family: var(--font-family-medium);
+}
+.v-hero-content .nav-link:hover {
+  border-color: var(--white);
+}
+.v-hero-content .nav-link:focus {
+  border-color: var(--white);
+}
+.v-hero-content .nav-link:focus-visible {
+  box-shadow: none;
+}
+.v-hero-content .nav-link.active {
+  color: rgba(112, 101, 240, 1);
+  font-family: var(--font-family-bold);
+  background-color: var(--white);
+  border: none;
+  border-bottom: 3.5px solid rgba(112, 101, 240, 1);
+}
+.v-hero-content .nav-tabs {
+  border-bottom: none;
+}
+.v-hero-content .tab-content-container {
+  margin-top: 5rem;
+}
+.v-hero-content .tab-content .tab-card {
+  background-color: var(--white);
+  border: none;
+  backdrop-filter: blur(40px);
+  border-radius: 0;
+}
+.v-hero-content .tab-content .tab-box .v-text {
+  font-size: .9rem;
+  font-family: var(--font-family-medium);
+}
+.v-hero-content .tab-content .v-action-container .v-action-link {
+  background-color: rgba(112, 101, 240, 1);
+  color: var(--white);
+  padding: 1rem 1.75rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  font-size: .9rem;
+  font-family: var(--font-family-bold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 4px 11px 22.8px 0px rgba(0, 0, 0, 0.06);
+}
+.v-main-hero .v-aside-image {
+  height: 700px;
+  background-image: url(../media/images/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
+  width: 100%;
+}
+.v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) .card {
+  border: 1.5px solid rgba(240, 239, 251, 1);
+  border-radius: 8px;
+}
+.v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) .card {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(112, 101, 240, 1)
+}
+.v-main-hero .v-aside-image .v-aside-layer .v-each-float {
+  position: absolute !important;
+  display: none;
+}
 /*======= QUEST =====*/
 #v-guest .v-hero-image {
   max-width: 500px;
@@ -46,11 +146,13 @@
   left: 0;
   top: 20%;
   transform: translate(-7%, -50%) !important;
+  z-index: 10;
 }
 #v-guest .v-aside-image-layer .v-each-float:nth-of-type(2) {
   right: 0;
   top: 80%;
   transform: translate(10%, -25%) !important;
+  z-index: 10;
 }
 #v-guest .nav-container {
   border: 1.5px solid rgba(222, 222, 247, 1);
@@ -107,7 +209,6 @@
   transform: translateY(-2px);
 }
 
-
 /*======= TRANSFORM =====*/
 #v-transform .v-scrolling-container {
   background-color: rgba(240, 240, 242, 1);
@@ -124,7 +225,7 @@
 #v-transform .v-right-context .v-subtext {
   color: rgba(56, 56, 56, 1);
   font-family: var(--font-family-regularI);
-  font-size: .86rem;
+  font-size: 0.86rem;
 }
 #v-transform .v-text {
   color: rgba(23, 23, 23, 1);
@@ -139,12 +240,12 @@
 #v-transform .v-sub-text {
   color: rgba(56, 56, 56, 1);
   font-family: var(--font-family-regularI);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 #v-transform .v-small-text {
   color: rgba(56, 56, 56, 1);
   font-family: var(--font-family-regularI);
-  font-size: .96rem;
+  font-size: 0.96rem;
 }
 #v-transform .v-action-container .v-action-link {
   background-color: rgba(23, 23, 23, 1);
@@ -152,7 +253,7 @@
   padding: 1rem 2rem;
   border-radius: 100px;
   border: none;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-family: var(--font-family-mediumM);
   display: inline-flex;
   align-items: center;
@@ -171,24 +272,23 @@
   color: rgba(16, 10, 85, 1);
   font-weight: 700;
 }
-#v-emergencies .v-subtext  {
+#v-emergencies .v-subtext {
   color: rgba(108, 114, 127, 1);
   font-family: var(--font-family-medium);
 }
-#v-emergencies .v-title  {
+#v-emergencies .v-title {
   color: rgba(0, 9, 41, 1);
   font-family: var(--font-family-bold);
 }
-#v-emergencies .v-content .v-subtext  {
+#v-emergencies .v-content .v-subtext {
   text-align: center;
   color: rgba(108, 114, 127, 1);
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-family: var(--font-family-medium);
 }
 #v-emergencies .v-banner .v-icon svg {
   --size: 4rem;
 }
-
 
 /*======= DOWNLOAD =====*/
 #v-download {
@@ -201,12 +301,12 @@
 }
 #v-download .v-main-content .v-subtext {
   font-family: var(--font-family-medium);
-  font-size: .96rem;
+  font-size: 0.96rem;
   color: var(--white);
 }
 #v-download .card .v-text {
   font-family: var(--font-family-medium);
-  font-size: .86rem;
+  font-size: 0.86rem;
   color: var(--white);
 }
 #v-download .v-action-link-container .v-action-link {
@@ -227,11 +327,16 @@
 /*======= SPAM =====*/
 #v-spam {
   padding: 5rem 0;
-  background: linear-gradient(90deg, rgba(247, 247, 253, 0.5) 0%, #F7F7FD 50.17%, rgba(247, 247, 253, 0.5) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 247, 253, 0.5) 0%,
+    #f7f7fd 50.17%,
+    rgba(247, 247, 253, 0.5) 100%
+  );
   box-shadow: 0px 4px 200px 0px rgba(232, 249, 247, 0.2);
 }
 #v-spam .v-subtext {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-family: var(--font-family-medium);
 }
 #v-spam .v-main-content .input-container {
@@ -241,7 +346,7 @@
 }
 #v-spam .v-main-content .input-container input {
   border: none;
-  font-size: .96rem;
+  font-size: 0.96rem;
 }
 #v-spam .v-main-content .input-container button {
   background-color: rgba(112, 101, 240, 1);
@@ -259,18 +364,17 @@
 }
 #v-spam .v-text {
   color: rgba(158, 163, 174, 1);
-  font-size: .86rem;
+  font-size: 0.86rem;
   font-family: var(--font-family-medium);
 }
-
 
 /*======= FOOTER =====*/
 .v-main-footer .v-subtext {
   color: rgba(0, 9, 41, 1);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .v-copy-footer .v-subtext {
   color: rgba(0, 9, 41, 1);
-  font-size: .96rem;
+  font-size: 0.96rem;
   font-family: var(--font-family-medium);
 }

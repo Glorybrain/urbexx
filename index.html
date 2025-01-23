@@ -25,6 +25,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Home</title>
   </head>
@@ -87,6 +88,731 @@
             </div>
           </header>
           <!-- header @::end -->
+
+          <div
+            class="v-main-hero"
+            style="background-color: rgba(247, 247, 253, 1)"
+          >
+            <div
+              class="row col-12 m-0 align-items-stretch flex-wrap flex-lg-nowrap row-gap-3"
+            >
+              <aside
+                class="v-hero-content col-lg-6 px-4 px-lg-0 col-12 pb-2 pt-5 py-md-5"
+              >
+                <div
+                  class="v-hero-content-inner mx-auto col-md-8 col-lg-10 col-xl-8 text-center text-lg-start d-flex flex-column row-gap-4"
+                >
+                  <h1 class="v-hero-content-title" data-aos="fade-right">
+                    <b>Urbex Estate</b>
+                  </h1>
+                  <div class="col-xl-7"  data-aos="fade-right"
+                  data-aos-delay="300">
+                    <span class="v-subtext" >
+                      Discover a world of convenience at your fingertips with
+                      Urbex Estate app - designed to make estate living easier,
+                      faster, safer and more enjoyable.
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex flex-wrap align-items-center justify-content-center column-gap-4 justify-content-lg-start mt-5"
+                  >
+                    <div
+                      class="px-4"
+                      style="border-left: 3px solid rgba(224, 222, 247, 1)"
+                      data-aos="fade-down"
+                      data-aos-delay="300"
+                    >
+                      <div class="d-flex flex-column gap-1">
+                        <h2 class="v-main-text">50k</h2>
+                        <div class="">
+                          <span class="v-text" style="color: var(--subtext-clr)"
+                            >residents</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="px-4"
+                      style="border-left: 3px solid rgba(224, 222, 247, 1)"
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                    >
+                      <div class="d-flex flex-column gap-1">
+                        <h2 class="v-main-text">10k</h2>
+                        <div class="">
+                          <span class="v-text" style="color: var(--subtext-clr)"
+                            >properties</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-content-container mx-auto col-md-11 col-lg-10 col-xl-8 mt-5"  data-aos="fade-up"
+                data-aos-delay="500">
+                  <div class="tab-container">
+                    <div class="">
+                      <div class="custom-nav">
+                        <ul
+                          class="nav nav-tabs flex-wrap"
+                          id="myTab"
+                          role="tablist"
+                        >
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link active"
+                              id="guests-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#guests"
+                              type="button"
+                              role="tab"
+                              aria-controls="guests"
+                              aria-selected="true"
+                            >
+                              Guests
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link"
+                              id="projects-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#projects"
+                              type="button"
+                              role="tab"
+                              aria-controls="projects"
+                              aria-selected="false"
+                              tabindex="-1"
+                            >
+                              Projects
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link"
+                              id="emergency-tab"
+                              data-bs-toggle="tab"
+                              data-bs-target="#emergency"
+                              type="button"
+                              role="tab"
+                              aria-controls="emergency"
+                              aria-selected="false"
+                              tabindex="-1"
+                            >
+                              Emergency
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-content mt-0 pt-0" id="myTabContent">
+                        <div
+                          class="tab-pane fade show active mt-0"
+                          id="guests"
+                          role="tabpanel"
+                          aria-labelledby="guests-tab"
+                        >
+                          <div class="tab-card p-4">
+                            <div
+                              class="d-flex flex-column flex-sm-row align-items-start align-items-lg-center justify-content-between row-gap-4"
+                            >
+                              <div class="tab-box pe-5">
+                                  <div class="d-flex flex-column row-gap-1">
+                                    <span
+                                      class="v-text"
+                                      >Active Invite</span
+                                    >
+                                    <span
+                                      class="mb-0"
+                                      ><b>Adebayo Yinka</b></span
+                                    >
+                                  </div>
+                                </div>
+                              <div class="tab-box pe-5">
+                                  <div class="d-flex flex-column row-gap-1">
+                                    <span
+                                      class="v-text"
+                                      >Date</span
+                                    >
+                                    <div
+                                      class="d-flex align-items-center gap-3"
+                                    >
+                                      <span
+                                        class="mb-0"
+                                        ><b>Select Move-in Date</b></span
+                                      >
+                                      <svg
+                                        style="--size: 1.25rem"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <g fill="none">
+                                          <path
+                                            stroke="rgba(0, 9, 41, 1)"
+                                            stroke-width="1.5"
+                                            d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z"
+                                          />
+                                          <path
+                                            stroke="rgba(0, 9, 41, 1)"
+                                            stroke-linecap="round"
+                                            stroke-width="1.5"
+                                            d="M7 4V2.5M17 4V2.5M2.5 9h19"
+                                          />
+                                          <path
+                                            fill="rgba(0, 9, 41, 1)"
+                                            d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="">
+                                <div class="v-action-container">
+                                  <a href="#" class="v-action-link">
+                                    Browse Invites
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="tab-pane fade mt-0"
+                          id="projects"
+                          role="tabpanel"
+                          aria-labelledby="projects-tab"
+                        >
+                        <div class="tab-card p-4">
+                          <div
+                            class="d-flex flex-column flex-sm-row align-items-start align-items-lg-center justify-content-between row-gap-4"
+                          >
+                            <div class="tab-box pe-5">
+                                <div class="d-flex flex-column row-gap-1">
+                                  <span
+                                    class="v-text"
+                                    >Active Invite</span
+                                  >
+                                  <span
+                                    class="mb-0"
+                                    ><b>Adebayo Yinka</b></span
+                                  >
+                                </div>
+                              </div>
+                            <div class="tab-box pe-5">
+                                <div class="d-flex flex-column row-gap-1">
+                                  <span
+                                    class="v-text"
+                                    >Date</span
+                                  >
+                                  <div
+                                    class="d-flex align-items-center gap-3"
+                                  >
+                                    <span
+                                      class="mb-0"
+                                      ><b>Select Move-in Date</b></span
+                                    >
+                                    <svg
+                                      style="--size: 1.25rem"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <g fill="none">
+                                        <path
+                                          stroke="rgba(0, 9, 41, 1)"
+                                          stroke-width="1.5"
+                                          d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z"
+                                        />
+                                        <path
+                                          stroke="rgba(0, 9, 41, 1)"
+                                          stroke-linecap="round"
+                                          stroke-width="1.5"
+                                          d="M7 4V2.5M17 4V2.5M2.5 9h19"
+                                        />
+                                        <path
+                                          fill="rgba(0, 9, 41, 1)"
+                                          d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="">
+                              <div class="v-action-container">
+                                <a href="#" class="v-action-link">
+                                  Browse Invites
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div
+                          class="tab-pane fade mt-0"
+                          id="emergency"
+                          role="tabpanel"
+                          aria-labelledby="emergency-tab"
+                        >
+                        <div class="tab-card p-4">
+                          <div
+                            class="d-flex flex-column flex-sm-row align-items-start align-items-lg-center justify-content-between row-gap-4"
+                          >
+                            <div class="tab-box pe-5">
+                                <div class="d-flex flex-column row-gap-1">
+                                  <span
+                                    class="v-text"
+                                    >Active Invite</span
+                                  >
+                                  <span
+                                    class="mb-0"
+                                    ><b>Adebayo Yinka</b></span
+                                  >
+                                </div>
+                              </div>
+                            <div class="tab-box pe-5">
+                                <div class="d-flex flex-column row-gap-1">
+                                  <span
+                                    class="v-text"
+                                    >Date</span
+                                  >
+                                  <div
+                                    class="d-flex align-items-center gap-3"
+                                  >
+                                    <span
+                                      class="mb-0"
+                                      ><b>Select Move-in Date</b></span
+                                    >
+                                    <svg
+                                      style="--size: 1.25rem"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <g fill="none">
+                                        <path
+                                          stroke="rgba(0, 9, 41, 1)"
+                                          stroke-width="1.5"
+                                          d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z"
+                                        />
+                                        <path
+                                          stroke="rgba(0, 9, 41, 1)"
+                                          stroke-linecap="round"
+                                          stroke-width="1.5"
+                                          d="M7 4V2.5M17 4V2.5M2.5 9h19"
+                                        />
+                                        <path
+                                          fill="rgba(0, 9, 41, 1)"
+                                          d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="">
+                              <div class="v-action-container">
+                                <a href="#" class="v-action-link">
+                                  Browse Invites
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+              <aside
+                class="v-aside-image px-0 py-lg-4 py-xl-5 mb-lg-0 pb-5 col-12 col-md-12 col-lg-6 px-4 px-lg-0 mx-auto position-relative"
+              >
+                <div
+                  class="v-aside-layer col-lg-10 py-4 py-md-5 py-lg-4 py-xl-3 position-relative h-100"
+                >
+                  <div class="v-aside-card"  data-aos="fade-down"
+                  data-aos-delay="300">
+                    <div class="card" style="border-radius: 8px">
+                      <img
+                        style="border-radius: 8px 8px 0 0"
+                        src="assets/media/images/house-img.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div class="card-body">
+                        <div class="d-flex flex-column row-gap-2">
+                          <div
+                            class="d-flex flex-column row-gap-2 pb-3"
+                            style="
+                              border-bottom: 1px solid rgba(240, 239, 251, 1);
+                            "
+                          >
+                            <h5
+                              style="
+                                color: rgba(112, 101, 240, 1);
+                                font-weight: 800;
+                              "
+                            >
+                              The Bankoles
+                            </h5>
+                            <h5
+                              style="color: rgba(0, 9, 41, 1); font-weight: 700"
+                            >
+                              Diamond Garden Estate
+                            </h5>
+                            <div class="">
+                              <span style="color: rgba(0, 9, 41, 1); font-size: .9rem;"
+                                >2821 Lake Sevilla, Palm Harbor, TX</span
+                              >
+                            </div>
+                          </div>
+                          <div class="d-flex gap-3 mt-1">
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M15 9.375H3.75V5.3125C3.75124 4.89848 3.91625 4.50177 4.20901 4.20901C4.50177 3.91625 4.89848 3.75124 5.3125 3.75H14.6875C15.1015 3.75124 15.4982 3.91625 15.791 4.20901C16.0837 4.50177 16.2488 4.89848 16.25 5.3125V9.375H15Z"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M1.875 16.25V11.875C1.87696 11.2126 2.14098 10.5778 2.6094 10.1094C3.07781 9.64098 3.71256 9.37696 4.375 9.375H15.625C16.2874 9.37696 16.9222 9.64098 17.3906 10.1094C17.859 10.5778 18.123 11.2126 18.125 11.875V16.25"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M1.875 16.25V15.9375C1.87572 15.6891 1.97473 15.451 2.15038 15.2754C2.32604 15.0997 2.56408 15.0007 2.8125 15H17.1875C17.4359 15.0007 17.674 15.0997 17.8496 15.2754C18.0253 15.451 18.1243 15.6891 18.125 15.9375V16.25"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >4</span
+                              >
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_38_2627)">
+                                  <path
+                                    d="M3.33333 10H16.6667C16.8877 10 17.0996 10.0878 17.2559 10.2441C17.4122 10.4004 17.5 10.6123 17.5 10.8333V13.3333C17.5 14.2174 17.1488 15.0652 16.5237 15.6904C15.8986 16.3155 15.0507 16.6667 14.1667 16.6667H5.83333C4.94928 16.6667 4.10143 16.3155 3.47631 15.6904C2.85119 15.0652 2.5 14.2174 2.5 13.3333V10.8333C2.5 10.6123 2.5878 10.4004 2.74408 10.2441C2.90036 10.0878 3.11232 10 3.33333 10V10Z"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M5 10V4.16667C5 3.72464 5.17559 3.30072 5.48816 2.98816C5.80072 2.67559 6.22464 2.5 6.66667 2.5H9.16667V4.375"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M3.33331 17.5L4.16665 16.25"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M16.6666 17.5L15.8333 16.25"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_38_2627">
+                                    <rect width="20" height="20" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >2</span
+                              >
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_38_2630)">
+                                  <path
+                                    d="M8.83155 15.5436L3.45637 10.1685C2.84796 9.56007 2.84796 8.43985 3.45637 7.83144L8.83155 2.45626C9.43995 1.84786 10.5602 1.84786 11.1686 2.45626L16.5438 7.83144C17.1522 8.43985 17.1522 9.56007 16.5438 10.1685L11.1686 15.5436C10.5602 16.1521 9.43995 16.1521 8.83155 15.5436V15.5436Z"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M1.99994 13.1716L6.36365 17.5353"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M13.6362 17.5353L17.9999 13.1716"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_38_2630">
+                                    <rect width="20" height="20" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >6x7.5 m²</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="v-aside-card"  data-aos="fade-left"
+                  data-aos-delay="300">
+                    <div class="card" style="border-radius: 8px">
+                      <img
+                        style="border-radius: 8px 8px 0 0; object-fit: cover"
+                        src="assets/media/images/house-img2.png"
+                        class="card-img-top"
+                        alt=""
+                      />
+                      <div class="card-body">
+                        <div class="d-flex flex-column row-gap-2">
+                          <div
+                            class="d-flex flex-column row-gap-1 pb-3"
+                            style="
+                              border-bottom: 1px solid rgba(240, 239, 251, 1);
+                            "
+                          >
+                            <h6
+                              style="
+                                color: rgba(112, 101, 240, 1);
+                                font-weight: 800;
+                              "
+                            >
+                              The Quadris
+                            </h6>
+                            <h6
+                              style="color: rgba(0, 9, 41, 1); font-weight: 700"
+                            >
+                              Diamond Garden Estate
+                            </h6>
+                            <div class="">
+                              <span
+                                style="
+                                  color: rgba(0, 9, 41, 1);
+                                  font-size: 0.75rem;
+                                "
+                                >Palm Harbor, TX</span
+                              >
+                            </div>
+                          </div>
+                          <div class="d-flex gap-3 mt-1">
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M15 9.375H3.75V5.3125C3.75124 4.89848 3.91625 4.50177 4.20901 4.20901C4.50177 3.91625 4.89848 3.75124 5.3125 3.75H14.6875C15.1015 3.75124 15.4982 3.91625 15.791 4.20901C16.0837 4.50177 16.2488 4.89848 16.25 5.3125V9.375H15Z"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M1.875 16.25V11.875C1.87696 11.2126 2.14098 10.5778 2.6094 10.1094C3.07781 9.64098 3.71256 9.37696 4.375 9.375H15.625C16.2874 9.37696 16.9222 9.64098 17.3906 10.1094C17.859 10.5778 18.123 11.2126 18.125 11.875V16.25"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M1.875 16.25V15.9375C1.87572 15.6891 1.97473 15.451 2.15038 15.2754C2.32604 15.0997 2.56408 15.0007 2.8125 15H17.1875C17.4359 15.0007 17.674 15.0997 17.8496 15.2754C18.0253 15.451 18.1243 15.6891 18.125 15.9375V16.25"
+                                  stroke="#7065F0"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >4</span
+                              >
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_38_2627)">
+                                  <path
+                                    d="M3.33333 10H16.6667C16.8877 10 17.0996 10.0878 17.2559 10.2441C17.4122 10.4004 17.5 10.6123 17.5 10.8333V13.3333C17.5 14.2174 17.1488 15.0652 16.5237 15.6904C15.8986 16.3155 15.0507 16.6667 14.1667 16.6667H5.83333C4.94928 16.6667 4.10143 16.3155 3.47631 15.6904C2.85119 15.0652 2.5 14.2174 2.5 13.3333V10.8333C2.5 10.6123 2.5878 10.4004 2.74408 10.2441C2.90036 10.0878 3.11232 10 3.33333 10V10Z"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M5 10V4.16667C5 3.72464 5.17559 3.30072 5.48816 2.98816C5.80072 2.67559 6.22464 2.5 6.66667 2.5H9.16667V4.375"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M3.33331 17.5L4.16665 16.25"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M16.6666 17.5L15.8333 16.25"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_38_2627">
+                                    <rect width="20" height="20" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >2</span
+                              >
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                              <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_38_2630)">
+                                  <path
+                                    d="M8.83155 15.5436L3.45637 10.1685C2.84796 9.56007 2.84796 8.43985 3.45637 7.83144L8.83155 2.45626C9.43995 1.84786 10.5602 1.84786 11.1686 2.45626L16.5438 7.83144C17.1522 8.43985 17.1522 9.56007 16.5438 10.1685L11.1686 15.5436C10.5602 16.1521 9.43995 16.1521 8.83155 15.5436V15.5436Z"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M1.99994 13.1716L6.36365 17.5353"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                  <path
+                                    d="M13.6362 17.5353L17.9999 13.1716"
+                                    stroke="#7065F0"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_38_2630">
+                                    <rect width="20" height="20" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+
+                              <span
+                                style="
+                                  font-size: 0.875rem;
+                                  color: rgba(108, 114, 127, 1);
+                                "
+                                >6x8 m²</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="v-each-float">
+                    <figure class="">
+                      <img
+                        src="./assets/media/svgs/arrow-tag.svg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
         </section>
 
         <section class="v-each-section py-5" id="v-guest">
@@ -96,11 +822,13 @@
                 <div class="col-lg-7">
                   <div class="v-aside-image-layer py-5">
                     <div class="v-aside-image-layer-inner position-relative">
-                      <figure class="v-each-float position-absolute">
+                      <figure class="v-each-float position-absolute" >
                         <img
                           src="./assets/media/svgs/float-1-quest.svg"
                           alt=""
                           class="img-fluid"
+                          data-aos="fade-right"
+                          data-aos-delay="400"
                         />
                       </figure>
                       <figure class="v-each-float position-absolute">
@@ -108,9 +836,12 @@
                           src="./assets/media/svgs/float-2-quest.svg"
                           alt=""
                           class="img-fluid"
+                          data-aos="fade-left"
+                      data-aos-delay="400"
                         />
                       </figure>
-                      <figure class="v-hero-image mx-auto">
+                      <figure class="v-hero-image mx-auto" data-aos="zoom-in"
+                      data-aos-delay="300" >
                         <img
                           src="assets/media/images/guest-image.png"
                           alt=""
@@ -125,7 +856,8 @@
                   <div
                     class="d-flex justify-content-center justify-content-lg-start"
                   >
-                    <div class="nav-container">
+                    <div class="nav-container"  data-aos="fade-down"
+                    data-aos-delay="500">
                       <ul class="nav nav-tabs" id="userTypeTab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <button
@@ -169,10 +901,12 @@
                       <div
                         class="col-sm-10 col-md-9 col-lg-12 col-xl-11 mx-auto mx-lg-0 d-flex flex-column row-gap-4 text-center text-lg-start"
                       >
-                        <h1 class="v-main-text text-center text-lg-start">
+                        <h1 class="v-main-text text-center text-lg-start"  data-aos="fade-left"
+                        data-aos-delay="600">
                           We make it easy for<br />Guests and Residents.
                         </h1>
-                        <div class="mx-auto mx-lg-0">
+                        <div class="mx-auto mx-lg-0" data-aos="fade-left"
+                        data-aos-delay="700">
                           <span class="v-subtext">
                             We're committed to delivering exceptional
                             experiences for our guests and residents, making it
@@ -180,7 +914,8 @@
                             and enjoy your community.
                           </span>
                         </div>
-                        <div class="v-action-container mt-2">
+                        <div class="v-action-container mt-2" data-aos="fade-up"
+                        data-aos-delay="600">
                           <a href="#" class="v-action-link">
                             See more
                             <svg
@@ -252,6 +987,8 @@
                 <div class="col-lg-5">
                   <div
                     class="v-scrolling-container v-vertical row col-12 m-0 py-4 px-3 p-md-5 gap-3"
+                    data-aos="fade-right"
+                        data-aos-delay="300"
                   >
                     <div class="v-stack-col p-0 splide" id="v-left">
                       <div class="splide__track">
@@ -272,7 +1009,9 @@
                                   />
                                 </span>
                                 <div class="v-right-context d-flex flex-column">
-                                  <span class="v-main-text"><b>Estate dues</b></span>
+                                  <span class="v-main-text"
+                                    ><b>Estate dues</b></span
+                                  >
                                   <span class="v-subtext"
                                     >Pay collective dues withi...</span
                                   >
@@ -300,7 +1039,9 @@
                                   />
                                 </span>
                                 <div class="v-right-context d-flex flex-column">
-                                  <span class="v-main-text"><b>Projects</b></span>
+                                  <span class="v-main-text"
+                                    ><b>Projects</b></span
+                                  >
                                   <span class="v-subtext"
                                     >Contribute to your estate’s cont...</span
                                   >
@@ -349,11 +1090,14 @@
                   >
                     <h1
                       class="v-main-heading col-lg-10 col-xl-8 text-center text-lg-start"
+                      data-aos="fade-down-left"
+                        data-aos-delay="400"
                     >
                       Transforming Transactions, One Click at a Time.
                     </h1>
                     <div class="d-flex flex-column row-gap-3">
-                      <div class="text-center text-lg-start col-lg-10 col-xl-9">
+                      <div class="text-center text-lg-start col-lg-10 col-xl-9" data-aos="fade-left"
+                      data-aos-delay="500">
                         <span class="v-sub-text">
                           Our service is designed to connect the residents,
                           offering reliable and accessible financial solutions
@@ -363,6 +1107,8 @@
                       <div class="d-flex flex-column row-gap-1">
                         <div
                           class="d-flex align-items-center justify-content-center justify-content-lg-start gap-2"
+                          data-aos="fade-left"
+                        data-aos-delay="600"
                         >
                           <svg
                             width="24"
@@ -388,6 +1134,8 @@
                         </div>
                         <div
                           class="d-flex align-items-center justify-content-center justify-content-lg-start gap-2"
+                          data-aos="fade-left"
+                        data-aos-delay="700"
                         >
                           <svg
                             width="24"
@@ -413,8 +1161,9 @@
                         </div>
                       </div>
                     </div>
-                    
-                    <div class="v-action-container mt-3">
+
+                    <div class="v-action-container mt-3" data-aos="fade-up"
+                    data-aos-delay="600">
                       <a href="" class="v-action-link">Get Started</a>
                     </div>
                   </div>
@@ -433,23 +1182,23 @@
                 <div
                   class="d-flex flex-column text-center text-lg-start col-md-8 col-lg-10 mx-auto row-gap-4 pb-2 pt-4 py-md-5"
                 >
-                  <h1 class="v-main-text">
-                    Emergencies?
-                  </h1>
+                  <h1 class="v-main-text" data-aos="fade-down-right"
+                  data-aos-delay="300">Emergencies?</h1>
                   <div
                     class="text-center text-lg-start text-center text-lg-start col-12 col-sm-10 col-lg-10 col-xl-6 mx-auto mx-lg-0"
+                    data-aos="fade-right"
+                        data-aos-delay="400"
                   >
-                    <span
-                      class="v-subtext"
-                    >
+                    <span class="v-subtext">
                       Conveniently report any suspicious activity within the
                       estate and an agent would be with you asap.
                     </span>
                   </div>
                   <div
-                    class="d-flex justify-content-center align-items-center justify-content-lg-start flex-wrap gap-4 gap-md-5"
+                    class="row justify-content-center align-items-center justify-content-lg-start flex-wrap row-gap-4"
                   >
-                    <div class="">
+                    <div class="col-6 col-sm-3" data-aos="fade-up"
+                        data-aos-delay="500">
                       <div class="">
                         <div
                           class="d-flex flex-column align-items-center row-gap-2"
@@ -533,14 +1282,15 @@
                                 Robbery
                               </span>
                             </h4>
-                            <span class="v-subtext"
-                                >Security personnel....</span
-                              >
+                            <span class="v-subtext text-center"
+                              >Security personnel....</span
+                            >
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="">
+                    <div class="col-6 col-sm-3" data-aos="fade-up"
+                        data-aos-delay="600">
                       <div class="">
                         <div
                           class="d-flex flex-column align-items-center row-gap-2"
@@ -620,14 +1370,13 @@
                                 Activity
                               </span>
                             </h4>
-                            <span class="v-subtext"
-                                >An agent wou...</span
-                              >
+                            <span class="v-subtext text-center">An agent wou...</span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="">
+                    <div class="col-6 col-sm-3" data-aos="fade-up"
+                        data-aos-delay="700">
                       <div
                         class="d-flex flex-column align-items-center row-gap-2"
                       >
@@ -700,9 +1449,7 @@
                               Incident
                             </span>
                           </h4>
-                          <span class="v-subtext"
-                              >Raising this a...</span
-                            >
+                          <span class="v-subtext text-center">Raising this a...</span>
                         </div>
                       </div>
                     </div>
@@ -710,7 +1457,8 @@
                 </div>
               </aside>
               <aside class="v-aside p-0 col-lg-6">
-                <figure class="v-image" data-aos="fade-left">
+                <figure class="v-image" data-aos="fade-left"
+                data-aos-delay="400">
                   <img
                     src="./assets/media/images/house-illustration.png"
                     alt=""
@@ -727,19 +1475,18 @@
             <div
               class="col-10 col-sm-10 col-md-8 col-lg-7 col-xl-6 mx-auto d-flex flex-column text-center flex-grow-1 row-gap-3 position-relative mb-5"
             >
-              <h1 class="v-main-text">
-                Download Urbex App
-              </h1>
-              <div class="col-11 col-md-8 col-xl-8 mx-auto">
+              <h1 class="v-main-text"  data-aos="fade-down"
+              data-aos-delay="300">Download Urbex App</h1>
+              <div class="col-11 col-md-8 col-xl-8 mx-auto"  data-aos="fade-down"
+              data-aos-delay="500">
                 <span class="v-subtext">
                   We’re dedicated to making life easier for our guests and
                   residents, with innovative solutions that streamline estate
                   management and enhance your lifestyle.
                 </span>
               </div>
-              <div
-                class="mx-auto v-action-link-container mt-3"
-              >
+              <div class="mx-auto v-action-link-container mt-3"  data-aos="fade-up"
+              data-aos-delay="600">
                 <a href="#" class="v-action-link">Download App</a>
               </div>
             </div>
@@ -749,7 +1496,8 @@
                 <div
                   class="row align-items-center justify-content-center row-gap-4"
                 >
-                  <div class="col-sm-6 col-lg-4">
+                  <div class="col-sm-6 col-lg-4" data-aos="fade-right"
+                        data-aos-delay="700">
                     <div
                       class="card"
                       style="background-color: rgb(64, 59, 119)"
@@ -800,7 +1548,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
+                  <div class="col-sm-6 col-lg-4" data-aos="fade-up"
+                        data-aos-delay="900">
                     <div
                       class="card"
                       style="
@@ -880,9 +1629,7 @@
                           <div class="">
                             <span
                               class="v-text"
-                              style="
-                                color: rgba(0, 9, 41, 1);
-                              "
+                              style="color: rgba(0, 9, 41, 1)"
                               >Residents can report any suspicious activity they
                               notice and a security personnel would be with them
                               as soon as possible.
@@ -892,7 +1639,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-lg-4">
+                  <div class="col-sm-6 col-lg-4" data-aos="fade-left"
+                        data-aos-delay="800">
                     <div
                       class="card"
                       style="
@@ -972,21 +1720,24 @@
             <div class="mt-5">
               <div class="">
                 <div class="d-flex justify-content-center column-gap-5">
-                  <figure class="v-image d-none d-sm-block">
+                  <figure class="v-image d-none d-sm-block"  data-aos="fade-up-right"
+                        data-aos-delay="1000">
                     <img
                       src="assets/media/images/iPhone 15 Pro Max White Titanium.png"
                       alt=""
                       class="img-fluid h-100 w-100"
                     />
                   </figure>
-                  <figure class="v-image">
+                  <figure class="v-image"  data-aos="fade-up"
+                        data-aos-delay="1100">
                     <img
                       src="assets/media/images/iPhone 15 Pro Max White Titanium (2).png"
                       alt=""
                       class="img-fluid h-100 w-100"
                     />
                   </figure>
-                  <figure class="v-image d-none d-sm-block">
+                  <figure class="v-image d-none d-sm-block"  data-aos="fade-up-left"
+                        data-aos-delay="1000">
                     <img
                       src="assets/media/images/iPhone 15 Pro Max White Titanium (1).png"
                       alt=""
@@ -1005,29 +1756,23 @@
               <div
                 class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-flex flex-column text-center flex-grow-1 row-gap-2"
               >
-                <div class="mx-auto">
-                  <span
-                    class="v-pre"
-                  >
-                    No Spam Promise
-                  </span>
+                <div class="mx-auto"  data-aos="fade-down"
+                data-aos-delay="300">
+                  <span class="v-pre"> No Spam Promise </span>
                 </div>
 
-                <h1
-                  class="v-main-text"
-                >
-                  Are you a resident?
-                </h1>
+                <h1 class="v-main-text"  data-aos="fade-down"
+                data-aos-delay="400">Are you a resident?</h1>
 
-                <div class="col-11 col-md-8 col-lg-7 mx-auto">
-                  <span
-                    class="v-subtext"
-                  >
+                <div class="col-11 col-md-8 col-lg-7 mx-auto"  data-aos="fade-down"
+                data-aos-delay="500">
+                  <span class="v-subtext">
                     Discover ways to increase your estate’s security. No Spam.
                   </span>
                 </div>
 
-                <form action="" class="mt-3">
+                <form action="" class="mt-3"  data-aos="fade-up"
+                data-aos-delay="600">
                   <div
                     class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-7 mx-auto"
                   >
@@ -1042,12 +1787,17 @@
                   </div>
                 </form>
 
-                <div class="col-11 col-md-8 col-lg-7 mx-auto">
-                  <span
-                    class="v-text"
-                  >
+                <div class="col-11 col-md-8 col-lg-7 mx-auto"  data-aos="fade-up"
+                data-aos-delay="700">
+                  <span class="v-text">
                     Join
-                    <span style="color: rgba(112, 101, 240, 1); font-family: var(--);">10,000+</span>
+                    <span
+                      style="
+                        color: rgba(112, 101, 240, 1);
+                        font-family: var(--);
+                      "
+                      >10,000+</span
+                    >
                     other residents in our Urbex App.
                   </span>
                 </div>
@@ -1059,9 +1809,7 @@
       <!-- main @::end -->
       <!-- footer @::start-->
       <footer class="v-footer position-relative py-5" id="v-page-footer">
-        <div
-          class="col-xl-9 mx-auto px-2 px-md-4 px-xl-0"
-        >
+        <div class="col-xl-9 mx-auto px-2 px-md-4 px-xl-0">
           <div class="v-main-footer">
             <div class="row row-gap-5">
               <div class="col-lg-3">
@@ -1070,6 +1818,8 @@
                     <figure
                       role="img"
                       class="v-header-logo d-flex align-items-center flex-nowrap column-gap-3"
+                      data-aos="fade-down-right"
+                      data-aos-delay="300"
                     >
                       <img
                         src="./assets/media/logos/favicon.png"
@@ -1103,42 +1853,29 @@
                 <div class="row row-gap-4">
                   <div class="col-sm-4">
                     <div class="d-flex flex-column row-gap-4">
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>Guests</b></span>
+                      <div class="d-flex flex-column row-gap-4"  data-aos="fade-right"
+                      data-aos-delay="1100">
+                        <span class="v-title v-main-text"><b>Guests</b></span>
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Active Invites
-                            </a>
+                            <a href="#" class="v-subtext">Active Invites </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                            >
-                              New Invites
-                            </a>
+                            <a href="#" class="v-subtext"> New Invites </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >History</a
-                            >
+                            <a href="#" class="v-subtext">History</a>
                           </li>
                         </ul>
                       </div>
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>Elections</b></span>
+                      <div class="d-flex flex-column row-gap-4"  data-aos="fade-right"
+                      data-aos-delay="1300">
+                        <span class="v-title v-main-text"
+                          ><b>Elections</b></span
+                        >
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Coming soon...
-                            </a>
+                            <a href="#" class="v-subtext">Coming soon... </a>
                           </li>
                         </ul>
                       </div>
@@ -1147,62 +1884,42 @@
 
                   <div class="col-sm-4">
                     <div class="d-flex flex-column row-gap-4">
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>Emergency</b></span>
+                      <div class="d-flex flex-column row-gap-4" data-aos="fade-right"
+                      data-aos-delay="700">
+                        <span class="v-title v-main-text"
+                          ><b>Emergency</b></span
+                        >
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
+                            <a href="#" class="v-subtext"
                               >Suspicious Activity</a
                             >
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Kidnap</a
-                            >
+                            <a href="#" class="v-subtext">Kidnap</a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Robbery/ Burglary</a
-                            >
+                            <a href="#" class="v-subtext">Robbery/ Burglary</a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Fire Incident</a
-                            >
+                            <a href="#" class="v-subtext">Fire Incident</a>
                           </li>
                         </ul>
                       </div>
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>TERMS & PRIVACY</b></span>
+                      <div class="d-flex flex-column row-gap-4" data-aos="fade-right"
+                      data-aos-delay="900">
+                        <span class="v-title v-main-text"
+                          ><b>TERMS & PRIVACY</b></span
+                        >
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Trust & Safety
-                            </a>
+                            <a href="#" class="v-subtext">Trust & Safety </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Terms of Service
-                            </a>
+                            <a href="#" class="v-subtext">Terms of Service </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Privacy Policy
-                            </a>
+                            <a href="#" class="v-subtext">Privacy Policy </a>
                           </li>
                         </ul>
                       </div>
@@ -1211,48 +1928,32 @@
 
                   <div class="col-sm-4">
                     <div class="d-flex flex-column row-gap-4">
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>Projects</b></span>
+                      <div class="d-flex flex-column row-gap-4"  data-aos="fade-right"
+                      data-aos-delay="300">
+                        <span class="v-title v-main-text"><b>Projects</b></span>
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Contributions</a
-                            >
+                            <a href="#" class="v-subtext">Contributions</a>
                           </li>
                         </ul>
                       </div>
-                      <div class="d-flex flex-column row-gap-4">
-                        <span class=" v-title v-main-text"><b>RESOURCES</b></span>
+                      <div class="d-flex flex-column row-gap-4"  data-aos="fade-right"
+                      data-aos-delay="500">
+                        <span class="v-title v-main-text"
+                          ><b>RESOURCES</b></span
+                        >
                         <ul class="list-unstyled">
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Blog
-                            </a>
+                            <a href="#" class="v-subtext">Blog </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Guides
-                            </a>
+                            <a href="#" class="v-subtext">Guides </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >FAQ
-                            </a>
+                            <a href="#" class="v-subtext">FAQ </a>
                           </li>
                           <li class="mb-3">
-                            <a
-                              href="#"
-                              class="v-subtext"
-                              >Help Center</a
-                            >
+                            <a href="#" class="v-subtext">Help Center</a>
                           </li>
                         </ul>
                       </div>
@@ -1378,6 +2079,7 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       const allScrollers = document.querySelectorAll(
         ".v-scrolling-container .v-stack-col"
@@ -1410,6 +2112,8 @@
           },
         }).mount(window.splide.Extensions);
       });
+
+      AOS.init();
     </script>
   </body>
 </html>
