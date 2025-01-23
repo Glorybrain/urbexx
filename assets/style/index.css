@@ -161,3 +161,32 @@
   transition: all 0.3s ease;
   box-shadow: 4px 11px 22.8px 0px rgba(0, 0, 0, 0.06);
 }
+
+/*======= EMERGENCIES =====*/
+#v-emergencies .v-banner {
+  border-radius: 8px;
+  background-color: rgba(247, 247, 253, 1);
+  border: 1.5px solid rgba(224, 222, 247, 1);
+}
+#v-emergencies .v-main-text b {
+  color: rgba(16, 10, 85, 1);
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+#v-emergencies .v-subtext  {
+  color: rgba(108, 114, 127, 1);
+  font-family: var(--font-family-medium);
+}
+#v-emergencies .v-title  {
+  color: rgba(108, 114, 127, 1);
+  font-family: var(--font-family-bold);
+}
+#v-emergencies .v-content .v-subtext  {
+  text-align: center;
+  color: rgba(108, 114, 127, 1);
+  font-size: .75rem;
+  font-family: var(--font-family-medium);
+}
+#v-emergencies .v-banner .v-icon svg {
+  --size: 4.5rem;
+}
