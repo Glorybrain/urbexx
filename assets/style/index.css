@@ -6,8 +6,9 @@
   color: var(--subtext-clr);
 }
 .v-pre {
+  font-family: var(--font-family-bold);
   color: var(--primary-clr);
-  font-size: 1.15rem;
+  font-size: 1.35rem;
 }
 
 .v-header {
@@ -175,7 +176,7 @@
   font-family: var(--font-family-medium);
 }
 #v-emergencies .v-title  {
-  color: rgba(108, 114, 127, 1);
+  color: rgba(0, 9, 41, 1);
   font-family: var(--font-family-bold);
 }
 #v-emergencies .v-content .v-subtext  {
@@ -185,7 +186,7 @@
   font-family: var(--font-family-medium);
 }
 #v-emergencies .v-banner .v-icon svg {
-  --size: 4.5rem;
+  --size: 4rem;
 }
 
 
@@ -221,4 +222,55 @@
   gap: 0.5rem;
   transition: all 0.3s ease;
   box-shadow: 4px 11px 22.8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/*======= SPAM =====*/
+#v-spam {
+  padding: 5rem 0;
+  background: linear-gradient(90deg, rgba(247, 247, 253, 0.5) 0%, #F7F7FD 50.17%, rgba(247, 247, 253, 0.5) 100%);
+  box-shadow: 0px 4px 200px 0px rgba(232, 249, 247, 0.2);
+}
+#v-spam .v-subtext {
+  font-size: .9rem;
+  font-family: var(--font-family-medium);
+}
+#v-spam .v-main-content .input-container {
+  background-color: var(--white);
+  width: 100%;
+  border-radius: 8px;
+}
+#v-spam .v-main-content .input-container input {
+  border: none;
+  font-size: .96rem;
+}
+#v-spam .v-main-content .input-container button {
+  background-color: rgba(112, 101, 240, 1);
+  color: var(--white);
+  font-family: var(--font-family-bold);
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 4px 11px 22.8px 0px rgba(0, 0, 0, 0.06);
+}
+#v-spam .v-text {
+  color: rgba(158, 163, 174, 1);
+  font-size: .86rem;
+  font-family: var(--font-family-medium);
+}
+
+
+/*======= FOOTER =====*/
+.v-main-footer .v-subtext {
+  color: rgba(0, 9, 41, 1);
+  font-size: .9rem;
+}
+.v-copy-footer .v-subtext {
+  color: rgba(0, 9, 41, 1);
+  font-size: .96rem;
+  font-family: var(--font-family-medium);
 }
