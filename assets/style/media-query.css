@@ -19,7 +19,7 @@
 
 @media all and (min-width: 420px) {
   .v-main-hero .v-aside-image {
-    height: 880px;
+    height: 860px;
   }
 }
 
@@ -28,7 +28,7 @@
 
 @media all and (min-width: 476px) {
   .v-main-hero .v-aside-image {
-    height: 920px;
+    height: 900px;
   }
 }
 
@@ -60,7 +60,7 @@
 
 @media all and (min-width: 576px) {
   .v-main-hero .v-aside-image {
-    height: 750px;
+    height: 800px;
   }
   .v-hero-content .tab-content .tab-box {
     border-right: 1px solid rgba(224, 222, 247, 1);
