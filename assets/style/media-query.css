@@ -19,7 +19,7 @@
 
 @media all and (min-width: 420px) {
   .v-main-hero .v-aside-image {
-    height: 860px;
+    height: 900px;
   }
 }
 
@@ -46,7 +46,7 @@
     position: absolute !important;
     display: flex;
     top: 0;
-    right: 10%;
+    right: 0;
   }
   .v-main-hero .v-aside-image .v-aside-layer .v-each-float figure {
     display: flex;
@@ -59,6 +59,9 @@
 }
 
 @media all and (min-width: 576px) {
+  .v-main-hero .v-aside-image {
+    height: 750px;
+  }
   .v-hero-content .tab-content .tab-box {
     border-right: 1px solid rgba(224, 222, 247, 1);
   }
