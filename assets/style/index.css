@@ -124,6 +124,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 10;
 }
 .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) .card {
   border: 1.5px solid rgba(240, 239, 251, 1);
