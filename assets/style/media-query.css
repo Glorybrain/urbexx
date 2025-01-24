@@ -139,13 +139,13 @@
     font-size: calc(3vw);
   }
   .v-main-hero .v-aside-image {
-    height: 690px;
+    height: 740px;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 50%;
+    width: 47%;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 40%;
+    width: 37%;
     position: absolute;
     bottom: 0;
     right: -5%;
