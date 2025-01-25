@@ -56,6 +56,7 @@
   background-color: var(--white);
 }
 .v-hero-content .nav-link {
+  padding: .75rem .65rem;
   color: rgba(0, 9, 41, 1);
   font-family: var(--font-family-medium);
 }
@@ -110,7 +111,7 @@
   box-shadow: 4px 11px 22.8px 0px rgba(0, 0, 0, 0.06);
 }
 .v-main-hero .v-aside-image {
-  height: 700px;
+  height: 780px;
   background-image: url(../media/images/hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -168,8 +169,8 @@
   gap: 0.5rem;
 }
 #v-guest .nav-tabs .nav-link {
-  font-family: 1rem;
-  padding: 0.75rem 1.5rem;
+  font-family: var(--font-family-medium);
+  padding: 0.75rem 1rem;
   border-radius: 6px;
   font-weight: 500;
   color: rgba(108, 114, 127, 1);
