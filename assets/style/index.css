@@ -224,15 +224,18 @@
   color: rgba(23, 23, 23, 1);
   font-family: var(--font-family-semiboldM);
 }
+#v-transform .v-right-context .v-main-text b {
+  font-size: .9rem;
+}
 #v-transform .v-right-context .v-subtext {
   color: rgba(56, 56, 56, 1);
   font-family: var(--font-family-regularI);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 #v-transform .v-text {
   color: rgba(23, 23, 23, 1);
   font-family: var(--font-family-semiboldM);
-  font-size: 1rem;
+  font-size: .9rem;
 }
 #v-transform .v-main-heading {
   color: rgba(23, 23, 23, 1);
