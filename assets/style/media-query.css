@@ -150,10 +150,10 @@
     height: 720px;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 47%;
+    width: 50%;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 37%;
+    width: 40%;
     position: absolute;
     bottom: 0;
     right: -5%;
