@@ -150,10 +150,10 @@
     height: 720px;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 50%;
+    width: 55%;
   }
   .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 40%;
+    width: 45%;
     position: absolute;
     bottom: 0;
     right: -5%;
@@ -169,6 +169,12 @@
 @media all and (min-width: 1400px) {
   .v-main-hero .v-aside-image {
     height: 800px;
+  }
+  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
+    width: 50%;
+  }
+  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
+    width: 40%;
   }
   .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
     width: 80%;
