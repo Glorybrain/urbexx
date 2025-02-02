@@ -1,7 +1,13 @@
 /* min widths */
-@media all and (min-width: 340px) {
+@media all and (min-width: 320px) {
   .v-main-hero .v-aside-image {
     height: 800px;
+  }
+}
+
+@media all and (min-width: 340px) {
+  .v-main-hero .v-aside-image {
+    height: 830px;
   }
 }
 
@@ -26,13 +32,19 @@
 
 @media all and (min-width: 400px) {
   .v-main-hero .v-aside-image {
-    height: 890px;
+    height: 910px;
   }
 }
 
 @media all and (min-width: 420px) {
   .v-main-hero .v-aside-image {
-    height: 925px;
+    height: 945px;
+  }
+}
+
+@media all and (min-width: 450px) {
+  .v-main-hero .v-aside-image {
+    height: 975px;
   }
 }
 
@@ -41,7 +53,7 @@
 
 @media all and (min-width: 476px) {
   .v-main-hero .v-aside-image {
-    height: 940px;
+    height: 1000px;
   }
 }
 
