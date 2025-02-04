@@ -13,12 +13,12 @@
 
 @media all and (min-width: 360px) {
   .v-main-hero .v-aside-image {
-    height: 860px;
+    height: 870px;
   }
 }
 @media all and (min-width: 380px) {
   .v-main-hero .v-aside-image {
-    height: 870px;
+    height: 890px;
   }
 
   #v-guest .nav-tabs .nav-link {
@@ -27,6 +27,12 @@
 
   .v-hero-content .nav-link {
     padding: .75rem 1.35rem;
+  }
+}
+
+@media all and (min-width: 380px) {
+  .v-main-hero .v-aside-image {
+    height: 900px;
   }
 }
 
@@ -145,7 +151,7 @@
     right: -10%;
   }
   .v-main-hero .v-aside-image {
-    height: 600px;
+    height: auto;
   }
   .v-main-hero .v-aside-image .v-aside-layer .v-each-float {
     top: 0;
