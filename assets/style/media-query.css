@@ -1,25 +1,15 @@
 /* min widths */
 @media all and (min-width: 320px) {
-  .v-main-hero .v-aside-image {
-    height: 800px;
-  }
 }
 
 @media all and (min-width: 340px) {
-  .v-main-hero .v-aside-image {
-    height: 830px;
-  }
+  
 }
 
 @media all and (min-width: 360px) {
-  .v-main-hero .v-aside-image {
-    height: 870px;
-  }
+  
 }
 @media all and (min-width: 380px) {
-  .v-main-hero .v-aside-image {
-    height: 890px;
-  }
 
   #v-guest .nav-tabs .nav-link {
     padding: 0.75rem 1.5rem;
@@ -31,71 +21,32 @@
 }
 
 @media all and (min-width: 380px) {
-  .v-main-hero .v-aside-image {
-    height: 900px;
-  }
+  
 }
 
 @media all and (min-width: 400px) {
-  .v-main-hero .v-aside-image {
-    height: 910px;
-  }
+  
 }
 
 @media all and (min-width: 420px) {
-  .v-main-hero .v-aside-image {
-    height: 945px;
-  }
+  
 }
 
 @media all and (min-width: 450px) {
-  .v-main-hero .v-aside-image {
-    height: 975px;
-  }
+  
 }
 
 @media all and (min-width: 464px) {
 }
 
 @media all and (min-width: 476px) {
-  .v-main-hero .v-aside-image {
-    height: 1000px;
-  }
+  
 }
 
 @media all and (min-width: 500px) {
-  .v-main-hero .v-aside-image {
-    height: 700px;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 50%;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 40%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float {
-    position: absolute !important;
-    display: flex;
-    top: 0;
-    right: 0;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
-    width: 95%;
-  }
 }
 
 @media all and (min-width: 576px) {
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 48%;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 38%;
-  }
   .v-hero-content .tab-content .tab-box {
     border-right: 1px solid rgba(224, 222, 247, 1);
   }
@@ -108,58 +59,22 @@
   .v-page-hero .v-hero-content-title {
     font-size: calc(4vw);
   }
-  .v-main-hero .v-aside-image {
-    height: 800px;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float {
-    top: 0;
-    right: 10%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
-    width: 100%;
-  }
 }
 
 @media all and (min-width: 800px) {
 }
 
 @media all and (min-width: 991px) {
-  #v-guest .v-aside-image-layer .v-each-float:nth-of-type(1) {
-    transform: translate(-5%, -50%) !important;
-  }
-  #v-guest .v-aside-image-layer .v-each-float:nth-of-type(2) {
-    transform: translate(15%, -3%) !important;
-  }
+  
 }
 
 @media all and (min-width: 992px) {
-  .v-hero-content .tab-content-container {
-    margin-top: 6.5rem !important;
-  }
   .v-hero-content .tab-content {
     position: relative;
     z-index: 10;
     width: 720px;
   }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 60%;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    right: -10%;
-  }
-  .v-main-hero .v-aside-image {
-    height: auto;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float {
-    top: 0;
-    right: -10%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
-    width: 75%;
-  }
+  
 }
 
 @media all and (min-width: 1024px) {
@@ -169,39 +84,8 @@
   .v-page-hero .v-hero-content-title {
     font-size: calc(3vw);
   }
-  .v-main-hero .v-aside-image {
-    height: 720px;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 55%;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 45%;
-    position: absolute;
-    bottom: 0;
-    right: -5%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float {
-    top: 0;
-    right: 0%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
-    width: 75%;
-  }
 }
 @media all and (min-width: 1400px) {
-  .v-main-hero .v-aside-image {
-    height: 800px;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(1) {
-    width: 50%;
-  }
-  .v-main-hero .v-aside-layer .v-aside-card:nth-of-type(2) {
-    width: 40%;
-  }
-  .v-main-hero .v-aside-image .v-aside-layer .v-each-float img {
-    width: 90%;
-  }
 }
 
 /* max widths */
