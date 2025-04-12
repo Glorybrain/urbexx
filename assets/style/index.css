@@ -24,6 +24,10 @@ header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
+.v-header-logo {
+  max-width: 10rem;
+}
+
 /* Navigation links */
 .nav-link {
   color: #666;
@@ -45,11 +49,11 @@ header {
 }
 
 .nav-link:hover {
-  color: #403bd7;
+  color: #0A2FF1;
 }
 
 .nav-link.active {
-  color: #403bd7 !important;
+  color: #0A2FF1 !important;
 }
 
 /* Buttons */
@@ -60,8 +64,8 @@ header {
 }
 
 .btn-demo {
-  color: #7868e6;
-  border: 1.5px solid #7868e6;
+  color: #0007ba;
+  border: 1.5px solid #0007ba;
   border-radius: 6px;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
@@ -72,13 +76,13 @@ header {
 
 .btn-demo:hover {
   background-color: #f5f5ff;
-  border-color: #6658d8;
-  color: #6658d8;
+  border-color: #0007ba;
+  color: #0007ba;
   /* transform property removed */
 }
 
 .btn-download {
-  background-color: #7868e6;
+  background-color: #0007ba;
   color: white;
   border: none;
   border-radius: 6px;
@@ -90,7 +94,7 @@ header {
 }
 
 .btn-download:hover {
-  background-color: #6658d8;
+  background-color: #0006bae1;
   color: white;
   box-shadow: 0 4px 8px rgba(120, 104, 230, 0.2);
   /* transform property removed */
@@ -185,11 +189,11 @@ header {
   box-shadow: none;
 }
 .v-hero-content .nav-link.active {
-  color: rgba(112, 101, 240, 1);
+  color: #0007ba;
   font-family: var(--font-family-bold);
   background-color: var(--white);
   border: none;
-  border-bottom: 3.5px solid rgba(112, 101, 240, 1);
+  border-bottom: 3.5px solid #0007ba;
   border-radius: 0 !important;
   margin: 0;
 }
@@ -207,7 +211,7 @@ header {
   font-family: var(--font-family-medium);
 }
 .v-hero-content .tab-content .v-action-container .v-action-link {
-  background-color: rgba(112, 101, 240, 1);
+  background-color: #0007ba;
   color: var(--white);
   padding: 1rem 1.75rem;
   width: 100%;
